@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contate-nos</title>
+    <link rel="stylesheet" href="css/front.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a class="nome-da-loja" href="index.html">MM Bijus 💎</a></li>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="vestuario.html">Vestuário</a></li>
+          <li><a href="joias-acessorios.html">Joias e Acessórios</a></li>
+          <li><a href="essencia-beleza.html">Essência e Beleza</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a id="auth-button" class="nome-login" href="login.html">Entrar</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="contato-container">
+      <div class="contato-info">
+        <h2>Informação de Contato</h2>
+        <ul class="lista-contato">
+          <li>
+            <i><img src="fotos/telefone.png" alt="telefone" /></i>+55 63
+            99994-4841
+          </li>
+          <li>
+            <i><img src="fotos/email.png" alt="email" /></i
+            >monicrocha2@outlook.com
+          </li>
+          <li>
+            <i><img src="fotos/endereco.png" alt="endereco" /></i>Rua Santos
+            Dumont, 124<br />Augustinópolis – TO
+          </li>
+        </ul>
+        <div class="contato-social">
+          <a
+            href="https://www.instagram.com/mm_bijus_/?hl=pt-br"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img src="fotos/insta-rosa.png" alt="insta"
+          /></a>
+        </div>
+      </div>
+
+      <form class="contato-form" id="formulario">
+        <div class="campos-duplos">
+          <div class="campo">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="" />
+          </div>
+          <div class="campo">
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" name="sobrenome" id="sobrenome" placeholder="" />
+          </div>
+        </div>
+
+        <div class="campos-duplos">
+          <div class="campo">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="" />
+          </div>
+          <div class="campo">
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="telefone" id="telefone" placeholder="" />
+          </div>
+        </div>
+
+        <div class="campo-mensagem">
+          <label for="mensagem">Mensagem</label>
+          <textarea
+            id="mensagem"
+            rows="4"
+            name="mensagem"
+            placeholder="escreve mensagem.."
+          ></textarea>
+        </div>
+
+        <button type="submit" class="btn-enviar">enviar</button>
+        <p id="mensagem-sucesso" class="msg-sucesso">Enviado com sucesso!</p>
+      </form>
+    </section>
+
+    <footer class="rodape">
+      <div class="coluna">
+        <h3>DEPARTAMENTOS</h3>
+        <ul>
+          <li><a href="index.html">INICIO</a></li>
+          <li><a href="vestuario.html">VESTUÁRIOS</a></li>
+          <li><a href="joias-acessorios.html">JOIAS E ACESSÓRIOS</a></li>
+          <li><a href="essencia-beleza.html">ESSÊNCIA & BELEZA</a></li>
+          <li><a href="contato.html">CONTATO</a></li>
+        </ul>
+      </div>
+
+      <div class="coluna">
+        <h3>FALE COM MM BIJUS</h3>
+        <p>📱 (63) 9 9994-4841</p>
+        <p>📞 (63) 9994-4841</p>
+        <p>✉️ monicrocha2@outlook.com</p>
+        <p>📍 Rua Santos Dumont, 124 – Centro<br />Augustinópolis</p>
+      </div>
+
+      <div class="coluna logo-social">
+        <img src="fotos/logo-da-loja.jpg" alt="Logo MM Bijus" class="logo" />
+        <p>@ MM_BIJUS 💎</p>
+        <p>📱 (63) 9 9994-4841</p>
+        <div class="icones">
+          <a
+            href="https://www.instagram.com/mm_bijus_/?hl=pt-br"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="fotos/insta.png" alt="Instagram"
+          /></a>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <hr />
+        <p>
+          &copy; MM Bijus 💎 - 2025 Loja Vitrine. Todos os direitos reservados.
+        </p>
+      </div>
+    </footer>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+
+    <script src="js/contato.js"></script>
+    <script src="js/auth.js"></script>
+  </body>
+</html>

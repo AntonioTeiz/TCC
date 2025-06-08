@@ -1,6 +1,23 @@
 {
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
     "sqlite3": "^5.1.7"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "name": "tcc",
+  "version": "1.0.0",
+  "main": "server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
